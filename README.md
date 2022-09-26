@@ -15,23 +15,12 @@ In this repository, I have surveyed approaches to a typical Text Classification 
 
 **2. Text Cleaning and Pre-processing**
 
-- *Must Do*:
-    + Noise removal
-    + Lowercasing (can be task dependent in some cases)
-- *Should Do*:
-    + Simple normalization – (e.g. standardize near identical words)
-- *Task Dependent*:
-    + Advanced normalization (e.g. addressing out-of-vocabulary words)
-    + Stop-word removal
-    + Stemming / Lemmatization
-    + Text enrichment / Augmentation
-- *Additional considerations*:
-    + Handling large documents and large collections of text documents.
-    + Extracting text from markup like HTML, PDF or other structured document formats.
-    + Trans-literation of characters from other languages into English.
-    + Handling of domain specific words, phrases and acronyms.
+- *Must Do*
+- *Should Do*
+- *Task Dependent*
+- *Additional considerations*
     
-    There are some techniques that help to deal with these problems such as *Tokenization*, *Stop words*, *Capitalization*, *Slangs and Abbreviations*, *Spelling Correction*, *Stemming*, *Lemmatization*.
+There are some techniques that help to deal with these problems such as *Tokenization*, *Stop words*, *Capitalization*, *Slangs and Abbreviations*, *Spelling Correction*, *Stemming*, *Lemmatization*.
 
 **3. Feature Extraction 1 - Word Embedding**
 
@@ -74,4 +63,3 @@ In this repository, I have surveyed approaches to a typical Text Classification 
 * *Recommender Systems*
 * *Knowledge Management*
 * *Document Summarization*
-----
